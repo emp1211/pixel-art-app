@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+html, body, .app {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  height: 3.7rem;
+  border-bottom: 1px darkgray solid;
+  box-shadow: 0px 0.5px 4px gray;
+  color: rgb(131, 131, 131);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+}
+
+.container {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.canvas-brush-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.canvas {
+  height: 512px;
+  min-width: 505.6px;
+  max-width: 505.6px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0.5px 4px gray;
+  margin-right: 1rem;
+}
+
+#brush {
+  margin-top: 0.4rem;
+} 
+
+.pixel {
+  height: 30px;
+  width: 30px;
+  border: solid 1px darkgray;
+  color: rgb(150, 150, 150);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  margin: 0px;
+}
+
+/* PALETTE */
+
+.palette-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4.4rem;
+  margin-top: 1rem;
+}
+
+img {
+  height: 32px;
+  width: 45px;
+}
+
+.palette {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+}
+
+.swatch {
+  margin: 0.12rem;
+  border: solid darkgray 1px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+  box-shadow: 0px 0.5px 4px gray;
+}
+
+.selected-color {
+  height: 40px;
+  min-width: 40px;
+  border-radius: 50%;
+  border: 1px solid darkgray;
+  box-shadow: 0px 0.5px 4px gray;
+}
+
+.canvas:hover, .palette:hover {
+  cursor: pointer;
+}
+
+/* New Picture Button */
+
+.btn-container {
+  text-align: center;
+  margin-top: 1.2rem;
+}
+
+.new-picture-btn {
+  background-color: white;
+  color: rgb(78, 78, 78);
+  padding: 1rem;
+  border: solid 1px darkgray;
+  border-radius: 10px;
+  box-shadow: 0px 0.5px 4px gray;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.new-picture-btn:hover {
+  background-color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+.new-picture-btn:active {
+  box-shadow: none;
+}
