@@ -1,8 +1,15 @@
+===================
+REACT PIXEL ART APP
+===================
+
+
 This 'pixel-art-app' repository holds the source code for a React web application that allows the user to "paint-by-number" a handful of pre-made pictures derived from a 16x16 canvas of "pixel" blocks. Click on a color swatch below the canvas to choose the brush color. Color the "pixels" by matching the number of the paint swatch on the palette to the number on the canvas. The application also supports mouse dragging for coloring multiple pixels per mouse click. 
 
 Explore the app live at: https://pixelle.netlify.app/
 
-![](pixel-screen-shot1.JPG)
+Screenshots:
+
+<img src="pixel-screen-shot1.JPG" width="250">
 
 Features: 
   * Dynamically generates canvas and palette from separate file of arrays, allowing easy addition of new paint-by-numbers and new color palettes
