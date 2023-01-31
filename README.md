@@ -10,8 +10,8 @@ Explore the app live at: https://pixelle.netlify.app/
 
 Screenshots:
 
-<img src="pixel-screen-shot1.JPG" width="300" display="inline">
-<img src="pixel-screen-shot2.JPG" width="300" display="inline">
+<img src="pixel-screen-shot1.JPG" width="300" display="inline-block">
+<img src="pixel-screen-shot2.JPG" width="300" display="inline-block">
 
 Features: 
   * Dynamically generates canvas and palette from separate file of arrays, allowing easy addition of new paint-by-numbers and new color palettes
