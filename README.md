@@ -2,6 +2,8 @@ This 'pixel-art-app' repository holds the source code for a React web applicatio
 
 Explore the app live at: https://pixelle.netlify.app/
 
+![](pixel-screen-shot1.JPG)
+
 Features: 
   * Dynamically generates canvas and palette from separate file of arrays, allowing easy addition of new paint-by-numbers and new color palettes
   * Font color (white or black) for palette swatches is automatically determined by a formula that calculates a brightness threshold
