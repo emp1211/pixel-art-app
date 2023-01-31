@@ -9,7 +9,7 @@ Explore the app live at: https://pixelle.netlify.app/
 
 Screenshots:
 
-<p float="left" align="center" >
+<p float="left" display="flex" justify-content="space-evenly">
  <img src="pixel-screen-shot1.JPG" width="300" display="inline-block" />
 <img src="pixel-screen-shot2.JPG" width="300" display="inline-block" />
 </p>
