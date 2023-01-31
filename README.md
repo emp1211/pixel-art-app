@@ -19,7 +19,7 @@ Screenshots:
 Features: 
   * Dynamically generates canvas and palette from separate file of arrays, allowing easy addition of new paint-by-numbers and new color palettes
   * Font color (white or black) for palette swatches is automatically determined by a formula that calculates a brightness threshold
-  * 'New Picture' button increments an index of the pictures, automatically loading a new paint-by-number, the color palette that corresponds to that picture, and resets all the pixels amnd brush color to white.  
+  * 'New Picture' button increments an index of the pictures, automatically loading a new paint-by-number and the correct color palette that corresponds to that picture, and resets all the pixels and brush color to white.  
   
 The app can be run locally in a node.js environment. Simply clone the repository, navigate to the project directory (where the package.json is found) and use the command 'npm start' in the terminal. 
 
