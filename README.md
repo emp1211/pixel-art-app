@@ -1,5 +1,4 @@
-===================
-REACT PIXEL ART APP
+==================REACT PIXEL ART APP
 ===================
 
 
