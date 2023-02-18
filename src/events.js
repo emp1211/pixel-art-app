@@ -22,6 +22,7 @@ export const handleMouseMove = event => {
 
 export const handleMouseUp = event => {
     isColoring = false;
+};
 
 // Handle Touch Events
 
