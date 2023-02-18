@@ -57,6 +57,7 @@ function App() {
   return (
     <div className="app" >
       <header>Pixel Art App</header>
+      
       <div className="container">
 
         <div className="canvas-brush-container" >

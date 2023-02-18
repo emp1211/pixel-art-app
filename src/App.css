@@ -43,6 +43,7 @@ header {
   box-shadow: 0px 0.5px 4px gray;
   margin-right: 1rem;
   padding: 0;
+  background-color: rgb(169, 169, 169);
 }
 
 #brush {
@@ -52,6 +53,7 @@ header {
 .pixel {
   aspect-ratio: 1 / 1;
   border: solid 1px darkgray;
+  background-color: white;
   color: rgb(150, 150, 150);
   display: flex;
   justify-content: center;
@@ -119,7 +121,7 @@ img {
 
 .new-picture-btn {
   background-color: white;
-  color: rgb(78, 78, 78);
+  color: rgb(131, 131, 131);
   padding: 1rem;
   border: solid 1px darkgray;
   border-radius: 10px;
@@ -129,10 +131,24 @@ img {
 }
 
 .new-picture-btn:hover {
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(231, 231, 231);
   cursor: pointer;
 }
 
 .new-picture-btn:active {
   box-shadow: none;
+}
+
+/* Media Queries */
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+
+
+
 }
