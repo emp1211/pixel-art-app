@@ -1,5 +1,5 @@
 import './App.css';
-import { handleMouseDown, updateBrush, handleMouseMove, handleMouseUp } from './events';
+import { handleMouseDown, updateBrush, handleMouseMove, handleMouseUp, handleTouchStart, handleTouchMove, handleTouchEnd } from './events';
 import { puzzles } from './puzzles';
 import { rgbValueArrays, determineFontColor } from './palettes';
 import React, { useEffect, useState } from 'react';
@@ -27,7 +27,17 @@ function App() {
 
   // Render legend for the canvas (256 pixel elements)
   for (let i = 0; i < 256; i++) {
-    pixelArr.push(<div className="pixel" onMouseMove = { handleMouseMove } onMouseDown= { handleMouseDown} onMouseUp={ handleMouseUp }>{ puzzles[puzzleIndex].legend[i] }</div>);
+    pixelArr.push(
+      <div 
+        className="pixel" 
+        onMouseMove = { handleMouseMove } 
+        onMouseDown= { handleMouseDown} 
+        onMouseUp={ handleMouseUp }
+        onTouchStart = { handleTouchStart }
+        onTouchMove = { handleTouchMove }
+        onTouchEnd = { handleTouchEnd } >
+          { puzzles[puzzleIndex].legend[i] }
+      </div>);
   };
 
   // Populate legend for the palette (10 swatches)
